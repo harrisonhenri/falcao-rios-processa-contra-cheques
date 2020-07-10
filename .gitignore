@@ -139,3 +139,5 @@ npm-debug.*
 web-build/
 web-report/
 
+dados-contracheque.json
+

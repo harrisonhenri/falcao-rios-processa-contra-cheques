@@ -146,8 +146,6 @@ module.exports = async function formatContraChequesAntigo(ficha, filename) {
 
   const splittedFile = file.slice(file.indexOf(date.join('/')))
 
-  console.log(splittedFile)
-
   if (
     splittedFile.indexOf(
       'O Clube de Desconto do Servidor firmou parceria em Vitória da Conquista com Étika Consultoria Imobiliária. A empresa oferece 10% de abatimento no',
@@ -312,9 +310,9 @@ module.exports = async function formatContraChequesAntigo(ficha, filename) {
       dataPagamento,
       agencia,
       contaCorrente,
-      vantagens,
-      descontos,
     },
+    vantagens,
+    descontos,
   }
 
   return response

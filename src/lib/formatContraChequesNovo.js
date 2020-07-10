@@ -174,9 +174,9 @@ module.exports = function formatContraChequesNovo(ficha) {
       dataPagamento,
       agencia,
       contaCorrente,
-      vantagens,
-      descontos,
     },
+    vantagens,
+    descontos,
   }
 
   return response

@@ -281,9 +281,9 @@ module.exports = function formatFichas(ficha) {
           dataPagamento: '',
           agencia: '',
           contaCorrente,
-          vantagens,
-          descontos,
         },
+        vantagens,
+        descontos,
       }
     }
   }
